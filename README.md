@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 
-hi, i'm mld-njupt, a student of njupt
+hi, i'm mld, a student of njupt
 
 **languages and tools:**  
 
