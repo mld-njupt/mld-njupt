@@ -15,4 +15,5 @@ hi, i'm mld, a student of njupt
 
 📈 my github stats
 
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=mld-njupt&show_icons=true" alt="abhisheknaiidu" />
+<img src="https://github-readme-stats.vercel.app/api?username=mld-njupt&show_icons=true" alt="abhisheknaiidu" />
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mld-njupt)](https://github.com/mld-njupt/github-readme-stats)
