@@ -50,21 +50,24 @@
       "project_name": "邮你来办",
       "project_role": "前端开发",
       "project_time": "2021.09 - 2021.11",
-      "project_desc": "该项目面向南京邮电大学学生出入校管理，分为管理端和小程序端。小程序采用的跨端解决方案为Taro，管理端为react、antd、axios、sass、recoil：使用token结合recoil实现不同角色校验",
+      "project_desc": "该项目面向南京邮电大学学生出入校管理，分为管理端和小程序端。小程序采用的跨端解决方案为Taro，管理端为react、antd、axios、sass",
+      "project_content": "小程序端登录页、历史记录、首页以及老师审批界面。开发历史记录页面时封装了Tabs组件：Tabs组件内部的Tab以及TabPanel通过消费context来实现内容切换。同时为了减少老师审批过后需要再次请求获取列表带来的开销，选择将列表数据存入recoil中，每次审批收到后端成功的响应后改变recoil中的数据来实现视图的更新",
       "dataIndex": 0
     },
     {
       "project_name": "南京邮电大学CTF知识学习平台",
       "project_role": "前端开发",
       "project_time": "2022.01 - 2022.05",
-      "project_desc": "该平台面向学生的CTF学习平台，该平台主要的功能为CTF知识推送、练习CTF赛题、统计用户等分情况并排名。采用技术栈为react+ts+arcodesign。项目中封装了useFetch、useIntersectionObserver、useDebounce等hook。同时自定义了ScollView和TimeLine组件",
+      "project_desc": "该平台面向学生的CTF学习平台，该平台主要的功能为CTF知识推送、练习CTF赛题、统计用户等分情况并排名。",
+      "project_content":"采用技术栈为react+ts+arcodesign。项目中封装了useFetch、useIntersectionObserver、useDebounce等hook。同时自定义了ScollView和TimeLine组件",
       "dataIndex": 1
     },
     {
       "project_name": "通用比赛评审管理平台",
       "project_role": "前端负责人",
       "project_time": "2022.06 - 至今",
-      "project_desc": "该项目仍在开发进行中，区别于之前的项目以负责人的角色带领大家开发。项目开发前进行一些开发规范的约束，项目开启了eslint。prettier基本规则；基于npm hook对包管理器进行限制；基于git hook 使用husky对git commit/git push进行拦截，自定义了commit脚本实现对commit信息的规范以及执行eslint和prettier的修复脚本；push脚本实现每次提交代码前都会先合并主分支代码。同时github开启主分支保护。",
+      "project_desc": "该项目主要用于校内的一些比赛的报名与审核工作",
+      "project_content":"该项目仍在开发进行中，区别于之前的项目以负责人的角色带领大家开发。项目开发前进行一些开发规范的约束，项目开启了eslint。prettier基本规则；基于npm hook对包管理器进行限制；基于git hook 使用husky对git commit/git push进行拦截，自定义了commit脚本实现对commit信息的规范以及执行eslint和prettier的修复脚本；push脚本实现每次提交代码前都会先合并主分支代码。同时github开启主分支保护。",
       "dataIndex": 2
     }
   ],
