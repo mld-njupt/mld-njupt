@@ -1,0 +1,76 @@
+{
+  "titleNameMap": {
+    "educationList": "教育背景",
+    "workExpList": "工作经历",
+    "projectList": "项目经历",
+    "skillList": "个人技能",
+    "awardList": "更多信息",
+    "workList": "个人作品",
+    "aboutme": "自我介绍"
+  },
+  "avatar": { "hidden": false, "shape": "square" },
+  "profile": {
+    "name": "孟令东",
+    "email": "1761311608@qq.com",
+    "mobile": "18269757721",
+    "github": "https://github.com/mld-njupt",
+    "zhihu": "",
+    "workExpYear": "",
+    "workPlace": "",
+    "positionTitle": "前端工程师"
+  },
+  "educationList": [
+    {
+      "edu_time": "2020.09.01 2022.06.30",
+      "school": "南京邮电大学",
+      "major": "软件工程（嵌入式培养）",
+      "dataIndex": 0
+    }
+  ],
+  "awardList": [
+    { "award_info": "英语 CET4", "award_time": "2020", "dataIndex": 0 }
+  ],
+  "workExpList": [],
+  "skillList": [
+    { "skill_name": "HTML、CSS、JS", "skill_level": 100, "dataIndex": 0 },
+    { "skill_name": "TypeScript", "skill_level": 80, "dataIndex": 1 },
+    {
+      "skill_name": "React及React相关技术栈",
+      "skill_level": 100,
+      "dataIndex": 2
+    },
+    {
+      "skill_name": "NodeJs、Go",
+      "skill_level": 70,
+      "dataIndex": 3
+    }
+  ],
+  "projectList": [
+    {
+      "project_name": "邮你来办",
+      "project_role": "前端开发",
+      "project_time": "2021.09 - 2021.11",
+      "project_desc": "该项目面向南京邮电大学学生出入校管理，分为管理端和小程序端。小程序采用的跨端解决方案为Taro，管理端为react、antd、axios、sass、recoil：使用token结合recoil实现不同角色校验",
+      "dataIndex": 0
+    },
+    {
+      "project_name": "南京邮电大学CTF知识学习平台",
+      "project_role": "前端开发",
+      "project_time": "2022.01 - 2022.05",
+      "project_desc": "该平台面向学生的CTF学习平台，该平台主要的功能为CTF知识推送、练习CTF赛题、统计用户等分情况并排名。采用技术栈为react+ts+arcodesign。项目中封装了useFetch、useIntersectionObserver、useDebounce等hook。同时自定义了ScollView和TimeLine组件",
+      "dataIndex": 1
+    },
+    {
+      "project_name": "通用比赛评审管理平台",
+      "project_role": "前端负责人",
+      "project_time": "2022.06 - 至今",
+      "project_desc": "该项目仍在开发进行中，区别于之前的项目以负责人的角色带领大家开发。项目开发前进行一些开发规范的约束，项目开启了eslint。prettier基本规则；基于npm hook对包管理器进行限制；基于git hook 使用husky对git commit/git push进行拦截，自定义了commit脚本实现对commit信息的规范以及执行eslint和prettier的修复脚本；push脚本实现每次提交代码前都会先合并主分支代码。同时github开启主分支保护。",
+      "dataIndex": 2
+    }
+  ],
+  "workList": [],
+  "aboutme": {
+    "aboutme_desc": "😈 能力项：沟通协调能力、执行力\n对前端具有浓厚的兴趣，渴望优雅的解决方式\n    "
+  },
+  "theme": { "color": "#2f5785", "tagColor": "#8bc34a" }
+}
