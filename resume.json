@@ -8,7 +8,7 @@
     "workList": "个人作品",
     "aboutme": "自我介绍"
   },
-  "avatar": { "hidden": false, "shape": "square" },
+  "avatar": { "src":"https://s1.ax1x.com/2022/06/26/jAiBYn.jpg", "shape": "square" },
   "profile": {
     "name": "孟令东",
     "email": "1761311608@qq.com",
@@ -21,14 +21,15 @@
   },
   "educationList": [
     {
-      "edu_time": "2020.09.01 2022.06.30",
+      "edu_time": ["2020.09.01,2022.06.30"],
       "school": "南京邮电大学",
       "major": "软件工程（嵌入式培养）",
       "dataIndex": 0
     }
   ],
   "awardList": [
-    { "award_info": "英语 CET4", "award_time": "2020", "dataIndex": 0 }
+    { "award_info": "英语 CET4", "award_time": "2020", "dataIndex": 0 },
+    { "award_info": "校网页设计大赛三等奖", "award_time": "2021", "dataIndex": 0 }
   ],
   "workExpList": [],
   "skillList": [
@@ -43,6 +44,11 @@
       "skill_name": "NodeJs、Go",
       "skill_level": 70,
       "dataIndex": 3
+    },
+    {
+      "skill_name": "mysql",
+      "skill_level": 60,
+      "dataIndex": 4
     }
   ],
   "projectList": [
